@@ -4,6 +4,13 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
+@extends('layouts.app')
+
+@section('content')
+    <div class="container">
+        <h1>Selamat datang di Dashboard Admin</h1>
+    </div>
+@endsection
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
